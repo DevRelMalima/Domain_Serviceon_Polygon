@@ -49,6 +49,28 @@ In addition, the contract includes several modifiers for access control:
 8. Polygon testscan
 9. Mumbai Testnet
 10. ERC721
+## Running Project Locally
+
+1. Fork the repo
+2. Clone the repo
+### Smart Contract
+1. `cd domainscontract` run `npm install` to install all the dependencies 
+2. After cloning the repo, go to [Quicknode][(https://www.quicknode.com/endpoints)](https://www.quicknode.com/endpoints) to make an account and generate your API endpoint key
+3. Rename the `.env.example` file on the root of the project to `.env`, then paste your API endpont key in the `.env` file
+4. Run `npx hardhat run scripts/deploy.js --network mumbai` to deploy the contract to the polygon mumbai network
+5. Your result of successful deployment should look like this:
+```sh
+Contract deployed to: 0x0AB61D0c7286c5c12Ef0eaaFD90B446e643DFe26
+Minted domain grandidah.m2
+Set record for grandidah.m2
+Owner of domain grandidah: 0xC475cbd2225B641266C2CB9d0151982C3596085C
+Contract balance: 0.1
+```
+### Frontend 
+1. From the project root directory:
+2. Run `npm install` to install all the dependencies
+3. Run `npm run start` to start the project
+4. Go to [http://localhost:3000](http://localhost:3000) to see the project running
 
 ## How to use
 
@@ -66,16 +88,6 @@ In addition, the contract includes several modifiers for access control:
 
 ## Switch to mumbai Tesnet
 ![before network switch](https://user-images.githubusercontent.com/41795852/225465557-16565430-3d1b-46e2-b827-644df601d040.PNG)
-
-## Running Project Locally
-
-1. Fork the repo
-2. Clone the repo
-3. After cloning the repo, go to [Quicknode][(https://www.quicknode.com/endpoints)](https://www.quicknode.com/endpoints) to make an account and generate your API endpoint key
-4. Rename the `.env.example` file on the root of the project to `.env`, then paste your API endpont key in the `.env` file
-5. Run `npm install` to install all the dependencies
-6. Run `npm run dev` to start the project
-7. Go to [http://localhost:3000](http://localhost:3000) to see the project running
 
 ## Contributing
 
