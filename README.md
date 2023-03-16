@@ -49,6 +49,14 @@ In addition, the contract includes several modifiers for access control:
 8. Polygon testscan
 9. Mumbai Testnet
 10. ERC721
+
+## Requirements
+```sh
+Node.js v16 or higher
+Hardhat v2.0 or higher
+solidity v^0.8.10
+Polygon mumbai test network
+```
 ## Running Project Locally
 
 1. Fork the repo
