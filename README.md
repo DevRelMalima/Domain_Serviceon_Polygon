@@ -100,9 +100,11 @@ Contract balance: 0.1
 ## Contributing
 
 If you want to contribute to this project, please read the [contributing guide](./CONTRIBUTING.md). If you have any ideas or suggestions, feel free to open an issue or a pull request. 
-
 If you like this project, please give it a star ⭐️
 
 ## Acknowledgement
 
 Built with 💗 by [samailamalima](https://github.com/samailamalima). Inspired by [BuiltSpace](https://buildspace.so/), powered by [Grandidah LLC](https://grandida.com/).
+
+## Disclaimer
+This project is mainly for educational and demonstration purposes only. The smart contract has not been audited and should not be used in a production environment. Always thoroughly review and test any smart contract before deploying it.
