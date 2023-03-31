@@ -74,6 +74,10 @@ Set record for grandidah.m2
 Owner of domain grandidah: 0xC475cbd2225B641266C2CB9d0151982C3596085C
 Contract balance: 0.1
 ```
+```sh
+https://mumbai.polygonscan.com/address/0x0AB61D0c7286c5c12Ef0eaaFD90B446e643DFe26
+```
+
 ### Frontend 
 1. From the project root directory:
 2. Run `npm install` to install all the dependencies
