@@ -11,7 +11,7 @@ import polygonLogo from "./assets/polygonlogo.png";
 const tld = ".m2";
 const TWITTER_HANDLE = "malima_cloud";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const CONTRACT_ADDRESS = "0xb67B27d4393e3fDB56394d11E456bf731cC18D37";
+const CONTRACT_ADDRESS = "0x0AB61D0c7286c5c12Ef0eaaFD90B446e643DFe26";
 
 const App = () => {
     const newLocal = useState([]);
